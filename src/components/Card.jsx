@@ -1,7 +1,11 @@
-const Card = () => {
+import "../styles/card.css"
+
+const Card = ({ data }) => {
+  console.log("inside card component: ", data);
   return (
-    <div>
-      <p>Hello Card</p>
+    <div className="card">
+      <p>{data.title}</p>
+      <img src={data.img} alt="" />
     </div>
   );
 };
