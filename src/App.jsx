@@ -1,5 +1,8 @@
 import Card from "./components/Card";
 
+//prop passong
+
+
 export default function App() {
   return (
     <div>
